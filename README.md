@@ -1,1 +1,3 @@
 # pw_checker
+
+I debated including this program because it does not run perfectly, but I wanted to include my last three projects. This is a password checker that begins by generating all possible good passwords and storing them in a DLB and a list of bad words that cannot be used anywhere in the password is also stored in a seperate DLB. If the user enters a bad password, good passwords with the longest matching prefix are reconmended. The problems with my program are that algorithm that generates the good passwords is very slow, if a bad password is entered, passwords with the longest matching prefix are not always reconmended, and the correct list of bad words that connot be used in the password is not perfectly generated. 
